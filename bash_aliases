@@ -1,5 +1,6 @@
 alias bc="bc -l"
 alias c="clear"
+alias catall='tail -n +1'
 alias cl="clear"
 alias ckear="clear"
 alias clr="clear"
@@ -89,7 +90,6 @@ alias paux='ps aux | grep'
 alias cpuinfo="lscpu"
 alias cpuinfo="less /proc/cpuinfo"
 alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
-alias wget="wget -c"
 alias usage='du -ch | grep total'
 alias totalusage='df -hl --total | grep total'
 alias partusage='df -hlT --exclude-type=tmpfs --exclude-type=devtmpfs'
