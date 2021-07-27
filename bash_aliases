@@ -95,3 +95,4 @@ alias totalusage='df -hl --total | grep total'
 alias partusage='df -hlT --exclude-type=tmpfs --exclude-type=devtmpfs'
 alias most='du -hsx * | sort -rh | head -10'
 alias rp='. ~/.bash_profile'
+alias seen="awk '!seen[$0]++'"
